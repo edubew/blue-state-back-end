@@ -11,7 +11,7 @@ class Ability
 
     # Define abilities for regular users
     if user.user?
-      can :read, :all    # Users can read all resources
+      can :read, :all
     end
   end
 end
